@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <title>Dialog Box by Hemant Bhat</title>
+</head>
+<body>
+    <video autoplay loop muted src="./asset/video.mp4" type="video/mp4"></video>
+    
+    <div class="container">
+        <header>
+            <h1>FOLLOWS ON</h1>
+            <div id="follow">
+                <a href="https://github.com/Hemant-Bhat" target="_blank"><box-icon name='github' type='logo' ></box-icon></a>
+                <a href="https://www.facebook.com/HemantBhat143/" target="_blank"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+                <a href="https://www.instagram.com/hemant__bhat/" target="_blank"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+                <a href="https://www.linkedin.com/in/hemant-bhat" target="_blank"><box-icon name='linkedin' type='logo' ></box-icon></a>
+              </div>
+        </header>
+        <br><br><br>
+        <h1 style="color: rgb(247, 250, 95); padding: 10px;">Click Below Button</h1>
+        <hr style="width: 100px;">
+        <button id="login" class="btn-login">LOG IN</button>
+        <button id="signup" class="btn-signup">SIGN UP</button>
+        <div class="login-dialog-box" id="login-dialog-box">
+            <div class="dialog-content">
+                <button class="close-box">X</button>
+                <h2>LOG IN</h2>
+                <div id="follow">
+                    <a href="https://github.com/Hemant-Bhat" target="_blank"><box-icon name='github' type='logo' ></box-icon></a>
+                    <a href="https://www.facebook.com/HemantBhat143/" target="_blank"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+                    <a href="https://www.instagram.com/hemant__bhat/" target="_blank"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+                    <a href="https://www.linkedin.com/in/hemant-bhat" target="_blank"><box-icon name='linkedin' type='logo' ></box-icon></a>
+                  </div>
+                <input type="text" placeholder="Enter email here...">
+                <input type="password" placeholder="Enter password here...">
+                <button class="btn-login" onclick="alert('SUCCESSFULL \nSupport -\nHemant Bhat')">LOG IN</button>
+            </div>
+        </div>
+        <div class="signup-dialog-box" id="signup-dialog-box">
+            <div class="dialog-content">
+                <button class="close-box">X</button>
+                <h2>SIGN UP</h2>
+                <div id="follow">
+                    <a href="https://github.com/Hemant-Bhat" target="_blank"><box-icon name='github' type='logo' ></box-icon></a>
+                    <a href="https://www.facebook.com/HemantBhat143/" target="_blank"><box-icon name='facebook-circle' type='logo' ></box-icon></a>
+                    <a href="https://www.instagram.com/hemant__bhat/" target="_blank"><box-icon name='instagram-alt' type='logo' ></box-icon></a>
+                    <a href="https://www.linkedin.com/in/hemant-bhat" target="_blank"><box-icon name='linkedin' type='logo' ></box-icon></a>
+                </div>
+                <input type="text" placeholder="Enter number here...">
+                <input type="text" placeholder="Enter email here...">
+                <input type="password" placeholder="Enter password here...">
+                <button class="btn-signup" onclick="alert('SUCCESSFULL \nSupport -\nHemant Bhat')">SIGN UP</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
